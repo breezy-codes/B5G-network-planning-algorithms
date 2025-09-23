@@ -1,0 +1,3370 @@
+[
+    {
+        "user_id": "dem_77_user_1",
+        "latitude": -35.36770933948397,
+        "longitude": 150.4691529428714,
+        "assigned_ru": [
+            "RU82"
+        ]
+    },
+    {
+        "user_id": "dem_77_user_2",
+        "latitude": -35.36782062399728,
+        "longitude": 150.47051866445076,
+        "assigned_ru": [
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_77_user_3",
+        "latitude": -35.36730866483711,
+        "longitude": 150.46961195517918,
+        "assigned_ru": [
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_78_user_1",
+        "latitude": -35.368575106546565,
+        "longitude": 150.47356811019972,
+        "assigned_ru": [
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_78_user_2",
+        "latitude": -35.367928825902624,
+        "longitude": 150.47203157481948,
+        "assigned_ru": [
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_79_user_1",
+        "latitude": -35.366406661362845,
+        "longitude": 150.47031820277633,
+        "assigned_ru": [
+            "RU55",
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_79_user_2",
+        "latitude": -35.36570302598291,
+        "longitude": 150.4693203459474,
+        "assigned_ru": [
+            "RU55",
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_80_user_1",
+        "latitude": -35.36477400744909,
+        "longitude": 150.47271110789458,
+        "assigned_ru": [
+            "RU14",
+            "RU55",
+            "RU82",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_80_user_2",
+        "latitude": -35.365798134876364,
+        "longitude": 150.47116421340493,
+        "assigned_ru": [
+            "RU14",
+            "RU55",
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_81_user_1",
+        "latitude": -35.36493903951153,
+        "longitude": 150.47490658715938,
+        "assigned_ru": [
+            "RU14",
+            "RU82",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_81_user_2",
+        "latitude": -35.365028597212515,
+        "longitude": 150.47527806480167,
+        "assigned_ru": [
+            "RU14",
+            "RU82",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_82_user_1",
+        "latitude": -35.36506990911483,
+        "longitude": 150.47874990437276,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_82_user_2",
+        "latitude": -35.364834870067185,
+        "longitude": 150.47878311492477,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_83_user_1",
+        "latitude": -35.36483262258172,
+        "longitude": 150.47971958188558,
+        "assigned_ru": [
+            "RU13",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_83_user_2",
+        "latitude": -35.36543560602823,
+        "longitude": 150.481884471438,
+        "assigned_ru": [
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_84_user_1",
+        "latitude": -35.36269742663647,
+        "longitude": 150.47000995355157,
+        "assigned_ru": [
+            "RU10",
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_84_user_2",
+        "latitude": -35.36374787970841,
+        "longitude": 150.47030108460203,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU82",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_85_user_1",
+        "latitude": -35.36279670001987,
+        "longitude": 150.47323445819953,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_85_user_2",
+        "latitude": -35.36463690913747,
+        "longitude": 150.47240387026886,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU82",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_85_user_3",
+        "latitude": -35.362667466847796,
+        "longitude": 150.47321337863772,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_86_user_1",
+        "latitude": -35.363517315248934,
+        "longitude": 150.47590187589404,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_86_user_2",
+        "latitude": -35.36447669331932,
+        "longitude": 150.47380728200093,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU82",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_86_user_3",
+        "latitude": -35.364692669829715,
+        "longitude": 150.4752854050262,
+        "assigned_ru": [
+            "RU14",
+            "RU82",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_87_user_1",
+        "latitude": -35.36266893300214,
+        "longitude": 150.47799197610072,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_87_user_2",
+        "latitude": -35.36264772624882,
+        "longitude": 150.47710673173216,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_88_user_1",
+        "latitude": -35.36308004058931,
+        "longitude": 150.48066026939216,
+        "assigned_ru": [
+            "RU13",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_88_user_2",
+        "latitude": -35.3644137113367,
+        "longitude": 150.47953024323388,
+        "assigned_ru": [
+            "RU13",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_89_user_1",
+        "latitude": -35.36151700676918,
+        "longitude": 150.4657377221142,
+        "assigned_ru": [
+            "RU10",
+            "RU11",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_89_user_2",
+        "latitude": -35.3606290073509,
+        "longitude": 150.46703189943443,
+        "assigned_ru": [
+            "RU10",
+            "RU11",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_90_user_1",
+        "latitude": -35.36125027501609,
+        "longitude": 150.46862409615258,
+        "assigned_ru": [
+            "RU10",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_90_user_2",
+        "latitude": -35.36229173494965,
+        "longitude": 150.47009631579576,
+        "assigned_ru": [
+            "RU10",
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_90_user_3",
+        "latitude": -35.361110130567255,
+        "longitude": 150.47038376885115,
+        "assigned_ru": [
+            "RU10",
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_91_user_1",
+        "latitude": -35.36152844273602,
+        "longitude": 150.47225850022016,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_91_user_2",
+        "latitude": -35.360669600461584,
+        "longitude": 150.4718672140412,
+        "assigned_ru": [
+            "RU10",
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU5",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_91_user_3",
+        "latitude": -35.36052221045129,
+        "longitude": 150.47280653299595,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU5",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_91_user_4",
+        "latitude": -35.360658021379365,
+        "longitude": 150.47306890673434,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU5",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_92_user_1",
+        "latitude": -35.36078245850473,
+        "longitude": 150.47626862287936,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU83",
+            "RU5",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_92_user_2",
+        "latitude": -35.36235553530806,
+        "longitude": 150.47375466146522,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU83",
+            "RU5"
+        ]
+    },
+    {
+        "user_id": "dem_92_user_3",
+        "latitude": -35.360936458157006,
+        "longitude": 150.47570442558057,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU83",
+            "RU5",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_92_user_4",
+        "latitude": -35.36119264286753,
+        "longitude": 150.4744983301743,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU5",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_93_user_1",
+        "latitude": -35.36117633775532,
+        "longitude": 150.47870442764318,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_93_user_2",
+        "latitude": -35.360922724452024,
+        "longitude": 150.47716561842094,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU83",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_94_user_1",
+        "latitude": -35.36023169243339,
+        "longitude": 150.48151604489368,
+        "assigned_ru": [
+            "RU13"
+        ]
+    },
+    {
+        "user_id": "dem_94_user_2",
+        "latitude": -35.362455027224485,
+        "longitude": 150.4802711334721,
+        "assigned_ru": [
+            "RU13",
+            "RU83"
+        ]
+    },
+    {
+        "user_id": "dem_95_user_1",
+        "latitude": -35.359793036652086,
+        "longitude": 150.4605869473499,
+        "assigned_ru": [
+            "RU11"
+        ]
+    },
+    {
+        "user_id": "dem_95_user_2",
+        "latitude": -35.359915160873,
+        "longitude": 150.4614958752486,
+        "assigned_ru": [
+            "RU11"
+        ]
+    },
+    {
+        "user_id": "dem_96_user_1",
+        "latitude": -35.35843797658851,
+        "longitude": 150.46425905654988,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11"
+        ]
+    },
+    {
+        "user_id": "dem_96_user_2",
+        "latitude": -35.35877539496602,
+        "longitude": 150.4633121660425,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_97_user_1",
+        "latitude": -35.35954188030829,
+        "longitude": 150.4678126444308,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU19",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_97_user_2",
+        "latitude": -35.360005357986374,
+        "longitude": 150.46632632216415,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU19",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_97_user_3",
+        "latitude": -35.360193071783655,
+        "longitude": 150.4678812290502,
+        "assigned_ru": [
+            "RU10",
+            "RU11",
+            "RU19",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_98_user_1",
+        "latitude": -35.359302483278256,
+        "longitude": 150.4694718980809,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_98_user_2",
+        "latitude": -35.3598880072924,
+        "longitude": 150.4694574725253,
+        "assigned_ru": [
+            "RU10",
+            "RU19",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_98_user_3",
+        "latitude": -35.358432368221685,
+        "longitude": 150.46891034293802,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_98_user_4",
+        "latitude": -35.35856059039823,
+        "longitude": 150.46831917020563,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU54",
+            "RU55"
+        ]
+    },
+    {
+        "user_id": "dem_99_user_1",
+        "latitude": -35.35940271806613,
+        "longitude": 150.47251762834745,
+        "assigned_ru": [
+            "RU10",
+            "RU14",
+            "RU19",
+            "RU54",
+            "RU55",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_99_user_2",
+        "latitude": -35.359517915519895,
+        "longitude": 150.47334714247128,
+        "assigned_ru": [
+            "RU14",
+            "RU54",
+            "RU55",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_99_user_3",
+        "latitude": -35.35904663176134,
+        "longitude": 150.4728057300936,
+        "assigned_ru": [
+            "RU14",
+            "RU19",
+            "RU54",
+            "RU55",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_99_user_4",
+        "latitude": -35.35967048727267,
+        "longitude": 150.47279016971325,
+        "assigned_ru": [
+            "RU10",
+            "RU14",
+            "RU19",
+            "RU54",
+            "RU55",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_100_user_1",
+        "latitude": -35.35953586910834,
+        "longitude": 150.47556573831974,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_100_user_2",
+        "latitude": -35.358155332770934,
+        "longitude": 150.47438136989751,
+        "assigned_ru": [
+            "RU14",
+            "RU19",
+            "RU20",
+            "RU54",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_100_user_3",
+        "latitude": -35.35825419334991,
+        "longitude": 150.4736446796607,
+        "assigned_ru": [
+            "RU14",
+            "RU19",
+            "RU20",
+            "RU54",
+            "RU55",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_101_user_1",
+        "latitude": -35.35842011732289,
+        "longitude": 150.47902597142235,
+        "assigned_ru": [
+            "RU13",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_101_user_2",
+        "latitude": -35.35956876307068,
+        "longitude": 150.47748684353041,
+        "assigned_ru": [
+            "RU13",
+            "RU14",
+            "RU54",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_102_user_1",
+        "latitude": -35.35684872198789,
+        "longitude": 150.45858279683875,
+        "assigned_ru": [
+            "RU11",
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_102_user_2",
+        "latitude": -35.35770843656497,
+        "longitude": 150.45777856811435,
+        "assigned_ru": [
+            "RU11",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_103_user_1",
+        "latitude": -35.35596187999573,
+        "longitude": 150.46068822525817,
+        "assigned_ru": [
+            "RU3",
+            "RU11",
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_103_user_2",
+        "latitude": -35.35706429436075,
+        "longitude": 150.46141766263733,
+        "assigned_ru": [
+            "RU3",
+            "RU11",
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_104_user_1",
+        "latitude": -35.35792401089175,
+        "longitude": 150.46516712373702,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU19"
+        ]
+    },
+    {
+        "user_id": "dem_104_user_2",
+        "latitude": -35.355916598390216,
+        "longitude": 150.4635814835241,
+        "assigned_ru": [
+            "RU3",
+            "RU11",
+            "RU32",
+            "RU38",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_104_user_3",
+        "latitude": -35.35674163241258,
+        "longitude": 150.4635954896487,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU32",
+            "RU38",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_105_user_1",
+        "latitude": -35.3572030043708,
+        "longitude": 150.46717472233544,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU19",
+            "RU38",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_105_user_2",
+        "latitude": -35.35643595268212,
+        "longitude": 150.46713073316505,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU19",
+            "RU38",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_105_user_3",
+        "latitude": -35.35786385580611,
+        "longitude": 150.46720018518192,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU11",
+            "RU19"
+        ]
+    },
+    {
+        "user_id": "dem_105_user_4",
+        "latitude": -35.35654896717839,
+        "longitude": 150.46805793095177,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU38",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_106_user_1",
+        "latitude": -35.3566827584822,
+        "longitude": 150.47037683899993,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU54",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_106_user_2",
+        "latitude": -35.356977946123244,
+        "longitude": 150.46959980425083,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU54",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_106_user_3",
+        "latitude": -35.35632850945711,
+        "longitude": 150.46894425036555,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU38",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_106_user_4",
+        "latitude": -35.356717283189624,
+        "longitude": 150.47039600604376,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU54",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_107_user_1",
+        "latitude": -35.35750851274861,
+        "longitude": 150.47301214292864,
+        "assigned_ru": [
+            "RU19",
+            "RU20",
+            "RU54",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_107_user_2",
+        "latitude": -35.355893921377046,
+        "longitude": 150.47279854669958,
+        "assigned_ru": [
+            "RU19",
+            "RU20",
+            "RU25",
+            "RU54",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_107_user_3",
+        "latitude": -35.35678624334414,
+        "longitude": 150.4710202380206,
+        "assigned_ru": [
+            "RU3",
+            "RU10",
+            "RU19",
+            "RU20",
+            "RU54",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_107_user_4",
+        "latitude": -35.356343923375555,
+        "longitude": 150.47339661744775,
+        "assigned_ru": [
+            "RU19",
+            "RU20",
+            "RU54",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_108_user_1",
+        "latitude": -35.355778300909215,
+        "longitude": 150.47626036184346,
+        "assigned_ru": [
+            "RU20",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_108_user_2",
+        "latitude": -35.3570527931945,
+        "longitude": 150.47491272954625,
+        "assigned_ru": [
+            "RU20",
+            "RU54",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_109_user_1",
+        "latitude": -35.35574538507192,
+        "longitude": 150.47647431063413,
+        "assigned_ru": [
+            "RU20",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_109_user_2",
+        "latitude": -35.357431500331074,
+        "longitude": 150.47871797905742,
+        "assigned_ru": [
+            "RU13",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_110_user_1",
+        "latitude": -35.35431264965302,
+        "longitude": 150.45957487142627,
+        "assigned_ru": [
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_110_user_2",
+        "latitude": -35.354000576501655,
+        "longitude": 150.45791984810634,
+        "assigned_ru": [
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_111_user_1",
+        "latitude": -35.35362839696035,
+        "longitude": 150.4619802963918,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU32",
+            "RU38",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_111_user_2",
+        "latitude": -35.35445129518967,
+        "longitude": 150.4599896313692,
+        "assigned_ru": [
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_112_user_1",
+        "latitude": -35.35558853501779,
+        "longitude": 150.463016306688,
+        "assigned_ru": [
+            "RU3",
+            "RU11",
+            "RU32",
+            "RU38",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_112_user_2",
+        "latitude": -35.35511901668527,
+        "longitude": 150.46408396612205,
+        "assigned_ru": [
+            "RU3",
+            "RU11",
+            "RU19",
+            "RU32",
+            "RU38",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_112_user_3",
+        "latitude": -35.35354073241059,
+        "longitude": 150.4651139587499,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU19",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_112_user_4",
+        "latitude": -35.354485746104366,
+        "longitude": 150.4653340742243,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_113_user_1",
+        "latitude": -35.35417410843359,
+        "longitude": 150.46562616190113,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_113_user_2",
+        "latitude": -35.353769457522716,
+        "longitude": 150.46537541719172,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU19",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_113_user_3",
+        "latitude": -35.35487248884484,
+        "longitude": 150.4659668084206,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_113_user_4",
+        "latitude": -35.3550410607824,
+        "longitude": 150.46697054754745,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_114_user_1",
+        "latitude": -35.35523847105036,
+        "longitude": 150.46886348349275,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU38",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_114_user_2",
+        "latitude": -35.35512884621404,
+        "longitude": 150.46905900568072,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU38",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_114_user_3",
+        "latitude": -35.35446564492898,
+        "longitude": 150.4685942799318,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_114_user_4",
+        "latitude": -35.35430262769253,
+        "longitude": 150.46872783713573,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_115_user_1",
+        "latitude": -35.35515797635423,
+        "longitude": 150.4727080503851,
+        "assigned_ru": [
+            "RU19",
+            "RU20",
+            "RU25",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_115_user_2",
+        "latitude": -35.35459979713718,
+        "longitude": 150.471325127539,
+        "assigned_ru": [
+            "RU19",
+            "RU20",
+            "RU25",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_115_user_3",
+        "latitude": -35.35402047272406,
+        "longitude": 150.47335040107936,
+        "assigned_ru": [
+            "RU19",
+            "RU20",
+            "RU25",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_115_user_4",
+        "latitude": -35.35471428244844,
+        "longitude": 150.47225766815234,
+        "assigned_ru": [
+            "RU19",
+            "RU20",
+            "RU25",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_116_user_1",
+        "latitude": -35.35363236814413,
+        "longitude": 150.47439462166273,
+        "assigned_ru": [
+            "RU20",
+            "RU25",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_116_user_2",
+        "latitude": -35.35437735310169,
+        "longitude": 150.47599225520403,
+        "assigned_ru": [
+            "RU20",
+            "RU22",
+            "RU25",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_117_user_1",
+        "latitude": -35.35354860497712,
+        "longitude": 150.47812443900094,
+        "assigned_ru": [
+            "RU20",
+            "RU22"
+        ]
+    },
+    {
+        "user_id": "dem_117_user_2",
+        "latitude": -35.35458529294635,
+        "longitude": 150.47649221714536,
+        "assigned_ru": [
+            "RU20",
+            "RU25",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_118_user_1",
+        "latitude": -35.35327473666229,
+        "longitude": 150.45748896715045,
+        "assigned_ru": [
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_118_user_2",
+        "latitude": -35.35339439556882,
+        "longitude": 150.45934149785913,
+        "assigned_ru": [
+            "RU17",
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_119_user_1",
+        "latitude": -35.3523874224574,
+        "longitude": 150.46017386452598,
+        "assigned_ru": [
+            "RU17",
+            "RU32",
+            "RU57"
+        ]
+    },
+    {
+        "user_id": "dem_119_user_2",
+        "latitude": -35.35157352670634,
+        "longitude": 150.46166236605205,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_119_user_3",
+        "latitude": -35.351243427186375,
+        "longitude": 150.46143881617917,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_120_user_1",
+        "latitude": -35.351990188413076,
+        "longitude": 150.46301654235754,
+        "assigned_ru": [
+            "RU17",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_120_user_2",
+        "latitude": -35.35182925429951,
+        "longitude": 150.46517669632973,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU32",
+            "RU38",
+            "RU59",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_120_user_3",
+        "latitude": -35.35287458666874,
+        "longitude": 150.46426297970746,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_120_user_4",
+        "latitude": -35.353448999476974,
+        "longitude": 150.46519040423598,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU32",
+            "RU38",
+            "RU57",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_121_user_1",
+        "latitude": -35.35190506537005,
+        "longitude": 150.4672562923587,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_121_user_2",
+        "latitude": -35.35212160681214,
+        "longitude": 150.46594718863457,
+        "assigned_ru": [
+            "RU3",
+            "RU17",
+            "RU32",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_121_user_3",
+        "latitude": -35.35133223178423,
+        "longitude": 150.46672199579558,
+        "assigned_ru": [
+            "RU17",
+            "RU38",
+            "RU59",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_121_user_4",
+        "latitude": -35.35207874558729,
+        "longitude": 150.46752191722607,
+        "assigned_ru": [
+            "RU3",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_122_user_1",
+        "latitude": -35.353161500747966,
+        "longitude": 150.46919465598026,
+        "assigned_ru": [
+            "RU3",
+            "RU19",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_122_user_2",
+        "latitude": -35.35218296620509,
+        "longitude": 150.4698112895436,
+        "assigned_ru": [
+            "RU4",
+            "RU19",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_122_user_3",
+        "latitude": -35.35259800959778,
+        "longitude": 150.46957511596653,
+        "assigned_ru": [
+            "RU4",
+            "RU19",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_122_user_4",
+        "latitude": -35.352025178629226,
+        "longitude": 150.46856578193808,
+        "assigned_ru": [
+            "RU4",
+            "RU19",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_123_user_1",
+        "latitude": -35.352774182295704,
+        "longitude": 150.47335759344708,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU25",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_123_user_2",
+        "latitude": -35.35149178386446,
+        "longitude": 150.4733160385382,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU22",
+            "RU25",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_123_user_3",
+        "latitude": -35.35138111819545,
+        "longitude": 150.4711095287901,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_124_user_1",
+        "latitude": -35.352003017769434,
+        "longitude": 150.47408566644435,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU22",
+            "RU25",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_124_user_2",
+        "latitude": -35.35288961134864,
+        "longitude": 150.47411806185133,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU22",
+            "RU25",
+            "RU12",
+            "RU1"
+        ]
+    },
+    {
+        "user_id": "dem_125_user_1",
+        "latitude": -35.35165750140301,
+        "longitude": 150.47881033777873,
+        "assigned_ru": [
+            "RU20",
+            "RU22"
+        ]
+    },
+    {
+        "user_id": "dem_125_user_2",
+        "latitude": -35.35282945460865,
+        "longitude": 150.47689572749127,
+        "assigned_ru": [
+            "RU20",
+            "RU22",
+            "RU25"
+        ]
+    },
+    {
+        "user_id": "dem_126_user_1",
+        "latitude": -35.352847604065296,
+        "longitude": 150.4817552239023,
+        "assigned_ru": [
+            "RU22"
+        ]
+    },
+    {
+        "user_id": "dem_126_user_2",
+        "latitude": -35.352261781219454,
+        "longitude": 150.48051775845832,
+        "assigned_ru": [
+            "RU22"
+        ]
+    },
+    {
+        "user_id": "dem_127_user_1",
+        "latitude": -35.35046071403309,
+        "longitude": 150.45705171414346,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU23",
+            "RU32"
+        ]
+    },
+    {
+        "user_id": "dem_127_user_2",
+        "latitude": -35.35072650950643,
+        "longitude": 150.45578702431126,
+        "assigned_ru": [
+            "RU15"
+        ]
+    },
+    {
+        "user_id": "dem_128_user_1",
+        "latitude": -35.34938163190544,
+        "longitude": 150.45726807745564,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU23"
+        ]
+    },
+    {
+        "user_id": "dem_128_user_2",
+        "latitude": -35.351132578798676,
+        "longitude": 150.4572249391313,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU32"
+        ]
+    },
+    {
+        "user_id": "dem_129_user_1",
+        "latitude": -35.35004810879435,
+        "longitude": 150.46088931241306,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_129_user_2",
+        "latitude": -35.34985399969246,
+        "longitude": 150.4614863613358,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_129_user_3",
+        "latitude": -35.34982873304919,
+        "longitude": 150.46088617358402,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_129_user_4",
+        "latitude": -35.34966925230559,
+        "longitude": 150.4598584597044,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_130_user_1",
+        "latitude": -35.351018931330124,
+        "longitude": 150.46531655363674,
+        "assigned_ru": [
+            "RU17",
+            "RU32",
+            "RU38",
+            "RU59",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_130_user_2",
+        "latitude": -35.35023331856744,
+        "longitude": 150.46424847277333,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU38",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_130_user_3",
+        "latitude": -35.34903847944125,
+        "longitude": 150.46340018212513,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU38",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_130_user_4",
+        "latitude": -35.34996368624047,
+        "longitude": 150.46273925549468,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU32",
+            "RU38",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_131_user_1",
+        "latitude": -35.35078622575464,
+        "longitude": 150.4672250197916,
+        "assigned_ru": [
+            "RU4",
+            "RU17",
+            "RU38",
+            "RU59",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_131_user_2",
+        "latitude": -35.34993755411023,
+        "longitude": 150.46633158384608,
+        "assigned_ru": [
+            "RU17",
+            "RU38",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_131_user_3",
+        "latitude": -35.34929888507238,
+        "longitude": 150.46667274157005,
+        "assigned_ru": [
+            "RU4",
+            "RU17",
+            "RU38",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_131_user_4",
+        "latitude": -35.34965874171997,
+        "longitude": 150.46708638195994,
+        "assigned_ru": [
+            "RU4",
+            "RU17",
+            "RU38",
+            "RU59",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_132_user_1",
+        "latitude": -35.35070103991222,
+        "longitude": 150.46831518845647,
+        "assigned_ru": [
+            "RU4",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_132_user_2",
+        "latitude": -35.350757854528936,
+        "longitude": 150.46839884265628,
+        "assigned_ru": [
+            "RU4",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_132_user_3",
+        "latitude": -35.349366821500325,
+        "longitude": 150.46943379817225,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU25",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_132_user_4",
+        "latitude": -35.351122394303935,
+        "longitude": 150.4693330588397,
+        "assigned_ru": [
+            "RU4",
+            "RU25",
+            "RU38",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_133_user_1",
+        "latitude": -35.35122882035535,
+        "longitude": 150.47168447369882,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU25",
+            "RU12",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_133_user_2",
+        "latitude": -35.34934783012467,
+        "longitude": 150.4719925139662,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU25",
+            "RU12"
+        ]
+    },
+    {
+        "user_id": "dem_134_user_1",
+        "latitude": -35.35055661407287,
+        "longitude": 150.4748569689219,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU22",
+            "RU24",
+            "RU25"
+        ]
+    },
+    {
+        "user_id": "dem_134_user_2",
+        "latitude": -35.35045780930622,
+        "longitude": 150.47477648011372,
+        "assigned_ru": [
+            "RU4",
+            "RU20",
+            "RU22",
+            "RU24",
+            "RU25"
+        ]
+    },
+    {
+        "user_id": "dem_135_user_1",
+        "latitude": -35.35109408069884,
+        "longitude": 150.47798892916413,
+        "assigned_ru": [
+            "RU20",
+            "RU22",
+            "RU25"
+        ]
+    },
+    {
+        "user_id": "dem_135_user_2",
+        "latitude": -35.351164593875446,
+        "longitude": 150.4770980472104,
+        "assigned_ru": [
+            "RU20",
+            "RU22",
+            "RU25"
+        ]
+    },
+    {
+        "user_id": "dem_136_user_1",
+        "latitude": -35.35083052277338,
+        "longitude": 150.4793132933755,
+        "assigned_ru": [
+            "RU22"
+        ]
+    },
+    {
+        "user_id": "dem_136_user_2",
+        "latitude": -35.34947845118606,
+        "longitude": 150.4792271525242,
+        "assigned_ru": [
+            "RU22"
+        ]
+    },
+    {
+        "user_id": "dem_137_user_1",
+        "latitude": -35.34805018630116,
+        "longitude": 150.45578451703008,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU23"
+        ]
+    },
+    {
+        "user_id": "dem_137_user_2",
+        "latitude": -35.34834180312498,
+        "longitude": 150.45695373573753,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU23"
+        ]
+    },
+    {
+        "user_id": "dem_138_user_1",
+        "latitude": -35.34775830721234,
+        "longitude": 150.45748272478792,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU23",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_138_user_2",
+        "latitude": -35.34819843866348,
+        "longitude": 150.4576915070239,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU17",
+            "RU23",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_138_user_3",
+        "latitude": -35.34877072112499,
+        "longitude": 150.4584511834823,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU23",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_139_user_1",
+        "latitude": -35.34701842479938,
+        "longitude": 150.46181723706067,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_139_user_2",
+        "latitude": -35.347220411375304,
+        "longitude": 150.46027415426371,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_139_user_3",
+        "latitude": -35.34783688020454,
+        "longitude": 150.46178814347107,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_139_user_4",
+        "latitude": -35.347851883548,
+        "longitude": 150.46037678208447,
+        "assigned_ru": [
+            "RU15",
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_140_user_1",
+        "latitude": -35.346941079542866,
+        "longitude": 150.46492173956983,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU50",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_140_user_2",
+        "latitude": -35.34715441846512,
+        "longitude": 150.46518407748488,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU50",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_140_user_3",
+        "latitude": -35.348328006759125,
+        "longitude": 150.46511736584387,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU50",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_140_user_4",
+        "latitude": -35.34822679710683,
+        "longitude": 150.46456669989095,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU50",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_141_user_1",
+        "latitude": -35.3470016871105,
+        "longitude": 150.4658934309505,
+        "assigned_ru": [
+            "RU17",
+            "RU23",
+            "RU50",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_141_user_2",
+        "latitude": -35.34883801413743,
+        "longitude": 150.46695125124037,
+        "assigned_ru": [
+            "RU4",
+            "RU17",
+            "RU38",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_141_user_3",
+        "latitude": -35.34778775976872,
+        "longitude": 150.4664671918531,
+        "assigned_ru": [
+            "RU17",
+            "RU50",
+            "RU59",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_142_user_1",
+        "latitude": -35.34842300177951,
+        "longitude": 150.4697035295836,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU25",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_142_user_2",
+        "latitude": -35.34750096400701,
+        "longitude": 150.46930674654342,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_142_user_3",
+        "latitude": -35.34880739696375,
+        "longitude": 150.46982763361464,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU25",
+            "RU18"
+        ]
+    },
+    {
+        "user_id": "dem_143_user_1",
+        "latitude": -35.34750486523339,
+        "longitude": 150.4729751439667,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU25",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_143_user_2",
+        "latitude": -35.347361479936914,
+        "longitude": 150.47294165025542,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU25",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_144_user_1",
+        "latitude": -35.3478442616975,
+        "longitude": 150.47594730944175,
+        "assigned_ru": [
+            "RU4",
+            "RU22",
+            "RU24"
+        ]
+    },
+    {
+        "user_id": "dem_144_user_2",
+        "latitude": -35.348592600325084,
+        "longitude": 150.47570102083992,
+        "assigned_ru": [
+            "RU4",
+            "RU22",
+            "RU24",
+            "RU25"
+        ]
+    },
+    {
+        "user_id": "dem_145_user_1",
+        "latitude": -35.347004423061215,
+        "longitude": 150.4785685428275,
+        "assigned_ru": [
+            "RU22"
+        ]
+    },
+    {
+        "user_id": "dem_145_user_2",
+        "latitude": -35.34676462805008,
+        "longitude": 150.47650239456254,
+        "assigned_ru": [
+            "RU4",
+            "RU22",
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_146_user_1",
+        "latitude": -35.34556643612387,
+        "longitude": 150.45608688637176,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU21",
+            "RU23",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_146_user_2",
+        "latitude": -35.34517918262888,
+        "longitude": 150.45628414960476,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU21",
+            "RU23",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_147_user_1",
+        "latitude": -35.34516495612946,
+        "longitude": 150.45737398518628,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU21",
+            "RU23",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_147_user_2",
+        "latitude": -35.34606372458233,
+        "longitude": 150.45869535402213,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_147_user_3",
+        "latitude": -35.346312669175916,
+        "longitude": 150.4574427350367,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU21",
+            "RU23"
+        ]
+    },
+    {
+        "user_id": "dem_148_user_1",
+        "latitude": -35.34591465003592,
+        "longitude": 150.4622208775172,
+        "assigned_ru": [
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_148_user_2",
+        "latitude": -35.346020188070376,
+        "longitude": 150.46007248157656,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_148_user_3",
+        "latitude": -35.34606482695444,
+        "longitude": 150.46073663458972,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_149_user_1",
+        "latitude": -35.34645806955325,
+        "longitude": 150.4641842927094,
+        "assigned_ru": [
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_149_user_2",
+        "latitude": -35.34641947939268,
+        "longitude": 150.4630202043724,
+        "assigned_ru": [
+            "RU17",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_149_user_3",
+        "latitude": -35.345248318967876,
+        "longitude": 150.4639751535419,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU59"
+        ]
+    },
+    {
+        "user_id": "dem_150_user_1",
+        "latitude": -35.3450703469548,
+        "longitude": 150.46767452169712,
+        "assigned_ru": [
+            "RU7",
+            "RU24",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_150_user_2",
+        "latitude": -35.344660335082416,
+        "longitude": 150.46716541253957,
+        "assigned_ru": [
+            "RU7",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_150_user_3",
+        "latitude": -35.345093929279486,
+        "longitude": 150.4668790669689,
+        "assigned_ru": [
+            "RU7",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_151_user_1",
+        "latitude": -35.346140582662926,
+        "longitude": 150.470739721236,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_151_user_2",
+        "latitude": -35.34571127981077,
+        "longitude": 150.46992775202665,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_151_user_3",
+        "latitude": -35.345141097719846,
+        "longitude": 150.46864633852826,
+        "assigned_ru": [
+            "RU24",
+            "RU50",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_152_user_1",
+        "latitude": -35.345094076433114,
+        "longitude": 150.47286595905862,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_152_user_2",
+        "latitude": -35.34584305742007,
+        "longitude": 150.47355135692274,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_153_user_1",
+        "latitude": -35.345634557636274,
+        "longitude": 150.4744454935276,
+        "assigned_ru": [
+            "RU4",
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_153_user_2",
+        "latitude": -35.34574268290347,
+        "longitude": 150.47632339600574,
+        "assigned_ru": [
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_154_user_1",
+        "latitude": -35.34279789041818,
+        "longitude": 150.45435635650443,
+        "assigned_ru": [
+            "RU16",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_154_user_2",
+        "latitude": -35.34258152700609,
+        "longitude": 150.45451564964753,
+        "assigned_ru": [
+            "RU16",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_155_user_1",
+        "latitude": -35.34435583388402,
+        "longitude": 150.4583036300238,
+        "assigned_ru": [
+            "RU15",
+            "RU16",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_155_user_2",
+        "latitude": -35.34302906687188,
+        "longitude": 150.4592094972083,
+        "assigned_ru": [
+            "RU7",
+            "RU16",
+            "RU21",
+            "RU50",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_155_user_3",
+        "latitude": -35.342571404144465,
+        "longitude": 150.45948101645806,
+        "assigned_ru": [
+            "RU7",
+            "RU16",
+            "RU21",
+            "RU50",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_156_user_1",
+        "latitude": -35.34337219079986,
+        "longitude": 150.46090749801348,
+        "assigned_ru": [
+            "RU7",
+            "RU16",
+            "RU21",
+            "RU23",
+            "RU50",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_156_user_2",
+        "latitude": -35.343643018197625,
+        "longitude": 150.46245168107183,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU23",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_157_user_1",
+        "latitude": -35.34243469189089,
+        "longitude": 150.46435055823724,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_157_user_2",
+        "latitude": -35.34342800052251,
+        "longitude": 150.46480145797318,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_158_user_1",
+        "latitude": -35.343352205740054,
+        "longitude": 150.4676677746626,
+        "assigned_ru": [
+            "RU7",
+            "RU35",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_158_user_2",
+        "latitude": -35.34313575532894,
+        "longitude": 150.46602387018257,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU35",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_158_user_3",
+        "latitude": -35.342278574549574,
+        "longitude": 150.46709973901005,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_159_user_1",
+        "latitude": -35.34325035059379,
+        "longitude": 150.46888911292885,
+        "assigned_ru": [
+            "RU7",
+            "RU35",
+            "RU50",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_159_user_2",
+        "latitude": -35.3443765505977,
+        "longitude": 150.46817685148312,
+        "assigned_ru": [
+            "RU7",
+            "RU24",
+            "RU35",
+            "RU50",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_159_user_3",
+        "latitude": -35.342880020703234,
+        "longitude": 150.46818910028344,
+        "assigned_ru": [
+            "RU7",
+            "RU35",
+            "RU50",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_159_user_4",
+        "latitude": -35.343776204605575,
+        "longitude": 150.46957136561562,
+        "assigned_ru": [
+            "RU24",
+            "RU35",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_160_user_1",
+        "latitude": -35.343417272106535,
+        "longitude": 150.4728453253864,
+        "assigned_ru": [
+            "RU24",
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_160_user_2",
+        "latitude": -35.343935540920945,
+        "longitude": 150.47099229963302,
+        "assigned_ru": [
+            "RU24",
+            "RU35",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_160_user_3",
+        "latitude": -35.34267847405561,
+        "longitude": 150.47265951714192,
+        "assigned_ru": [
+            "RU24",
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_161_user_1",
+        "latitude": -35.34328325372721,
+        "longitude": 150.47482425442726,
+        "assigned_ru": [
+            "RU24",
+            "RU35",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_161_user_2",
+        "latitude": -35.34400441255597,
+        "longitude": 150.47469508403066,
+        "assigned_ru": [
+            "RU24",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_162_user_1",
+        "latitude": -35.34287542480032,
+        "longitude": 150.4771674201929,
+        "assigned_ru": [
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_162_user_2",
+        "latitude": -35.34366021694116,
+        "longitude": 150.47802463656575,
+        "assigned_ru": [
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_163_user_1",
+        "latitude": -35.3411433892582,
+        "longitude": 150.45694776413308,
+        "assigned_ru": [
+            "RU16",
+            "RU21",
+            "RU26",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_163_user_2",
+        "latitude": -35.341424459652615,
+        "longitude": 150.45676260832204,
+        "assigned_ru": [
+            "RU16",
+            "RU21",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_164_user_1",
+        "latitude": -35.34165994937546,
+        "longitude": 150.4583811580583,
+        "assigned_ru": [
+            "RU16",
+            "RU21",
+            "RU37",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_164_user_2",
+        "latitude": -35.34136681906958,
+        "longitude": 150.45772677980662,
+        "assigned_ru": [
+            "RU16",
+            "RU21",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_165_user_1",
+        "latitude": -35.340862363621774,
+        "longitude": 150.46076825134864,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU37",
+            "RU50",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_165_user_2",
+        "latitude": -35.34102121165597,
+        "longitude": 150.4617968520599,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU37",
+            "RU50",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_166_user_1",
+        "latitude": -35.341641251958016,
+        "longitude": 150.46265514817816,
+        "assigned_ru": [
+            "RU7",
+            "RU21",
+            "RU37",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_166_user_2",
+        "latitude": -35.34009669405788,
+        "longitude": 150.46457093157963,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU37",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_167_user_1",
+        "latitude": -35.34126617076475,
+        "longitude": 150.46765302227652,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU50",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_167_user_2",
+        "latitude": -35.340429140492404,
+        "longitude": 150.46574157880457,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU37",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_167_user_3",
+        "latitude": -35.3421086416429,
+        "longitude": 150.46689492290542,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU50"
+        ]
+    },
+    {
+        "user_id": "dem_168_user_1",
+        "latitude": -35.340715860404615,
+        "longitude": 150.46919282270028,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_168_user_2",
+        "latitude": -35.34058197216816,
+        "longitude": 150.4692360063425,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_168_user_3",
+        "latitude": -35.34152602267726,
+        "longitude": 150.47053603104047,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_169_user_1",
+        "latitude": -35.34039715071528,
+        "longitude": 150.47228309332004,
+        "assigned_ru": [
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_169_user_2",
+        "latitude": -35.34061035177811,
+        "longitude": 150.47245021449623,
+        "assigned_ru": [
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_169_user_3",
+        "latitude": -35.34151012150311,
+        "longitude": 150.47343977504616,
+        "assigned_ru": [
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_169_user_4",
+        "latitude": -35.34079877732019,
+        "longitude": 150.47239420671713,
+        "assigned_ru": [
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_170_user_1",
+        "latitude": -35.341561490983125,
+        "longitude": 150.47431708984072,
+        "assigned_ru": [
+            "RU35",
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_170_user_2",
+        "latitude": -35.342082269942004,
+        "longitude": 150.47585867607836,
+        "assigned_ru": [
+            "RU51",
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_171_user_1",
+        "latitude": -35.340227117888304,
+        "longitude": 150.47731146682943,
+        "assigned_ru": []
+    },
+    {
+        "user_id": "dem_171_user_2",
+        "latitude": -35.34192312802223,
+        "longitude": 150.47658614725222,
+        "assigned_ru": [
+            "RU2"
+        ]
+    },
+    {
+        "user_id": "dem_172_user_1",
+        "latitude": -35.33887252021828,
+        "longitude": 150.45643561146207,
+        "assigned_ru": [
+            "RU26",
+            "RU36",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_172_user_2",
+        "latitude": -35.338634008709455,
+        "longitude": 150.45662030836766,
+        "assigned_ru": [
+            "RU26",
+            "RU36",
+            "RU37",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_173_user_1",
+        "latitude": -35.3394285800516,
+        "longitude": 150.45941731477097,
+        "assigned_ru": [
+            "RU7",
+            "RU26",
+            "RU36",
+            "RU37",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_173_user_2",
+        "latitude": -35.33775993861398,
+        "longitude": 150.45979405955978,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU37",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_174_user_1",
+        "latitude": -35.338226520550485,
+        "longitude": 150.46208933864568,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU26",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_174_user_2",
+        "latitude": -35.339268762343444,
+        "longitude": 150.46074834975894,
+        "assigned_ru": [
+            "RU7",
+            "RU26",
+            "RU36",
+            "RU37",
+            "RU58"
+        ]
+    },
+    {
+        "user_id": "dem_175_user_1",
+        "latitude": -35.338296512089684,
+        "longitude": 150.4627088166049,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU26",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_175_user_2",
+        "latitude": -35.338496731104414,
+        "longitude": 150.46342201456918,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_176_user_1",
+        "latitude": -35.33860511366223,
+        "longitude": 150.46754091060473,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU37",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_176_user_2",
+        "latitude": -35.33817245393042,
+        "longitude": 150.4660182513366,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU35",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_177_user_1",
+        "latitude": -35.337826434360224,
+        "longitude": 150.46895679500417,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_177_user_2",
+        "latitude": -35.33876298918683,
+        "longitude": 150.47007413798065,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_177_user_3",
+        "latitude": -35.339476246507665,
+        "longitude": 150.47085314995041,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_178_user_1",
+        "latitude": -35.3381394547017,
+        "longitude": 150.47334553556678,
+        "assigned_ru": [
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_178_user_2",
+        "latitude": -35.33863479120305,
+        "longitude": 150.47103411253264,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_179_user_1",
+        "latitude": -35.33807376143736,
+        "longitude": 150.4741387174861,
+        "assigned_ru": [
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_179_user_2",
+        "latitude": -35.338971059943155,
+        "longitude": 150.47545900113468,
+        "assigned_ru": [
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_180_user_1",
+        "latitude": -35.33603221098189,
+        "longitude": 150.45485524967813,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_180_user_2",
+        "latitude": -35.337415375483666,
+        "longitude": 150.4546466033411,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU58",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_181_user_1",
+        "latitude": -35.335768990385475,
+        "longitude": 150.4575611598376,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU37",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_181_user_2",
+        "latitude": -35.3363781909437,
+        "longitude": 150.45850443853317,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU37",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_182_user_1",
+        "latitude": -35.337734303901264,
+        "longitude": 150.46045759402784,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_182_user_2",
+        "latitude": -35.337235338172704,
+        "longitude": 150.4617370246598,
+        "assigned_ru": [
+            "RU8",
+            "RU26",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_183_user_1",
+        "latitude": -35.33721528220547,
+        "longitude": 150.46348432504308,
+        "assigned_ru": [
+            "RU7",
+            "RU8",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_183_user_2",
+        "latitude": -35.33608534680097,
+        "longitude": 150.46410621944045,
+        "assigned_ru": [
+            "RU8",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_184_user_1",
+        "latitude": -35.335629267320634,
+        "longitude": 150.46595693446275,
+        "assigned_ru": [
+            "RU8",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_184_user_2",
+        "latitude": -35.33708865750159,
+        "longitude": 150.46773597342047,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_185_user_1",
+        "latitude": -35.33718050656341,
+        "longitude": 150.47053590270852,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_185_user_2",
+        "latitude": -35.3376707190374,
+        "longitude": 150.46899877621502,
+        "assigned_ru": [
+            "RU8",
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_186_user_1",
+        "latitude": -35.336114293437205,
+        "longitude": 150.47301434718116,
+        "assigned_ru": [
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_186_user_2",
+        "latitude": -35.33674046690081,
+        "longitude": 150.47280900244166,
+        "assigned_ru": [
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_187_user_1",
+        "latitude": -35.337177046719376,
+        "longitude": 150.47380758188098,
+        "assigned_ru": [
+            "RU35",
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_187_user_2",
+        "latitude": -35.33661972552598,
+        "longitude": 150.4757031540337,
+        "assigned_ru": [
+            "RU51"
+        ]
+    },
+    {
+        "user_id": "dem_189_user_1",
+        "latitude": -35.33417865354493,
+        "longitude": 150.45611068873717,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_189_user_2",
+        "latitude": -35.33494488932583,
+        "longitude": 150.45543179331452,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_190_user_1",
+        "latitude": -35.33362702062694,
+        "longitude": 150.45883419328771,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_190_user_2",
+        "latitude": -35.334548590659814,
+        "longitude": 150.45784785609922,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_191_user_1",
+        "latitude": -35.33467984972925,
+        "longitude": 150.4614070518596,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_191_user_2",
+        "latitude": -35.334907183747845,
+        "longitude": 150.46115520534713,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_192_user_1",
+        "latitude": -35.33544162228998,
+        "longitude": 150.46383896820913,
+        "assigned_ru": [
+            "RU8",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_192_user_2",
+        "latitude": -35.33395168784312,
+        "longitude": 150.46311266061002,
+        "assigned_ru": [
+            "RU34",
+            "RU36",
+            "RU37"
+        ]
+    },
+    {
+        "user_id": "dem_193_user_1",
+        "latitude": -35.33454145712267,
+        "longitude": 150.4670022096175,
+        "assigned_ru": [
+            "RU8"
+        ]
+    },
+    {
+        "user_id": "dem_193_user_2",
+        "latitude": -35.333395373469386,
+        "longitude": 150.46726466146822,
+        "assigned_ru": []
+    },
+    {
+        "user_id": "dem_200_user_1",
+        "latitude": -35.33314382825358,
+        "longitude": 150.45617182713232,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_200_user_2",
+        "latitude": -35.33103611618599,
+        "longitude": 150.4545698462508,
+        "assigned_ru": [
+            "RU34",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_201_user_1",
+        "latitude": -35.33277906925414,
+        "longitude": 150.45977362955045,
+        "assigned_ru": [
+            "RU26",
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_201_user_2",
+        "latitude": -35.3315395951531,
+        "longitude": 150.45830372691103,
+        "assigned_ru": [
+            "RU34",
+            "RU94"
+        ]
+    },
+    {
+        "user_id": "dem_202_user_1",
+        "latitude": -35.332145340102684,
+        "longitude": 150.46255028173394,
+        "assigned_ru": [
+            "RU34",
+            "RU36"
+        ]
+    },
+    {
+        "user_id": "dem_202_user_2",
+        "latitude": -35.33224681235097,
+        "longitude": 150.46030478619542,
+        "assigned_ru": [
+            "RU34",
+            "RU36",
+            "RU94"
+        ]
+    }
+]

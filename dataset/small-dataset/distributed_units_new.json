@@ -1,0 +1,36 @@
+{
+  "distributed_units_new": [
+    {
+      "du_name": "DU2",
+      "latitude": -35.3551689,
+      "longitude": 150.46035,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU3",
+      "latitude": -35.3642498,
+      "longitude": 150.4727704,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU4",
+      "latitude": -35.3367991,
+      "longitude": 150.4577068,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU9",
+      "latitude": -35.339,
+      "longitude": 150.4719,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    }
+  ]
+}

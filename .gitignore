@@ -1,0 +1,14 @@
+
+# Ignore the contents of the logs directory
+code/logs/**
+
+# Ignore all generated python files
+.venv
+.idea
+__pycache__/
+cache/
+
+# Ignore all vscode settings
+.vscode/
+
+maps/generated/**

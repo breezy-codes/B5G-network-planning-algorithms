@@ -1,0 +1,124 @@
+{
+  "distributed_units_new": [
+    {
+      "du_name": "DU2",
+      "latitude": -35.3551689,
+      "longitude": 150.46035,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU4",
+      "latitude": -35.3367991,
+      "longitude": 150.4577068,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU6",
+      "latitude": -35.3195,
+      "longitude": 150.4726,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU7",
+      "latitude": -35.3729913,
+      "longitude": 150.4647802,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU3",
+      "latitude": -35.3642498,
+      "longitude": 150.4727704,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU5",
+      "latitude": -35.3249,
+      "longitude": 150.4605,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU8",
+      "latitude": -35.39068,
+      "longitude": 150.44078,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU9",
+      "latitude": -35.339,
+      "longitude": 150.4719,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU10",
+      "latitude": -35.3866359,
+      "longitude": 150.4512172,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU11",
+      "latitude": -35.372004,
+      "longitude": 150.4403253,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU12",
+      "latitude": -35.3162863,
+      "longitude": 150.4359222,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU13",
+      "latitude": -35.3333823,
+      "longitude": 150.4737455,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU14",
+      "latitude": -35.3209558,
+      "longitude": 150.4432144,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU15",
+      "latitude": -35.3197003,
+      "longitude": 150.4336132,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    },
+    {
+      "du_name": "DU16",
+      "latitude": -35.3121042,
+      "longitude": 150.4694393,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    }
+  ]
+}

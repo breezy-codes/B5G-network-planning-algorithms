@@ -1,0 +1,284 @@
+{
+  "radio_units_new": [
+    {
+      "ru_name": "RU3",
+      "service": "RadioUnit",
+      "latitude": -35.3559538,
+      "longitude": 150.4658836,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU4",
+      "service": "RadioUnit",
+      "latitude": -35.3489,
+      "longitude": 150.472,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU7",
+      "service": "RadioUnit",
+      "latitude": -35.3416772,
+      "longitude": 150.4641589,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU8",
+      "service": "RadioUnit",
+      "latitude": -35.3383113,
+      "longitude": 150.466788,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU10",
+      "service": "RadioUnit",
+      "latitude": -35.359553,
+      "longitude": 150.4672852,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU11",
+      "service": "RadioUnit",
+      "latitude": -35.3589227,
+      "longitude": 150.4626431,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU13",
+      "service": "RadioUnit",
+      "latitude": -35.3610576,
+      "longitude": 150.4786462,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU14",
+      "service": "RadioUnit",
+      "latitude": -35.3625,
+      "longitude": 150.4745,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU15",
+      "service": "RadioUnit",
+      "latitude": -35.3482902,
+      "longitude": 150.4567947,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU16",
+      "service": "RadioUnit",
+      "latitude": -35.3438986,
+      "longitude": 150.4562633,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU17",
+      "service": "RadioUnit",
+      "latitude": -35.3502,
+      "longitude": 150.4625,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU19",
+      "service": "RadioUnit",
+      "latitude": -35.3563979,
+      "longitude": 150.4693527,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU20",
+      "service": "RadioUnit",
+      "latitude": -35.3541037,
+      "longitude": 150.4749423,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU21",
+      "service": "RadioUnit",
+      "latitude": -35.3439,
+      "longitude": 150.4606,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU22",
+      "service": "RadioUnit",
+      "latitude": -35.3503267,
+      "longitude": 150.4783315,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU23",
+      "service": "RadioUnit",
+      "latitude": -35.3474788,
+      "longitude": 150.4609082,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU24",
+      "service": "RadioUnit",
+      "latitude": -35.3465648,
+      "longitude": 150.4727145,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU25",
+      "service": "RadioUnit",
+      "latitude": -35.3516,
+      "longitude": 150.4729,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU26",
+      "service": "RadioUnit",
+      "latitude": -35.3367991,
+      "longitude": 150.4577068,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU32",
+      "service": "RadioUnit",
+      "latitude": -35.3531614,
+      "longitude": 150.4607617,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU34",
+      "service": "RadioUnit",
+      "latitude": -35.3339948,
+      "longitude": 150.4576278,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU35",
+      "service": "RadioUnit",
+      "latitude": -35.340689,
+      "longitude": 150.4705365,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU36",
+      "service": "RadioUnit",
+      "latitude": -35.3359362,
+      "longitude": 150.4598568,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU37",
+      "service": "RadioUnit",
+      "latitude": -35.3383436,
+      "longitude": 150.4620525,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU38",
+      "service": "RadioUnit",
+      "latitude": -35.3529368,
+      "longitude": 150.4660367,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU50",
+      "service": "RadioUnit",
+      "latitude": -35.3442,
+      "longitude": 150.4637,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU51",
+      "service": "RadioUnit",
+      "latitude": -35.339,
+      "longitude": 150.4719,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU54",
+      "service": "RadioUnit",
+      "latitude": -35.3602,
+      "longitude": 150.4724,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU55",
+      "service": "RadioUnit",
+      "latitude": -35.362,
+      "longitude": 150.4706,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU57",
+      "service": "RadioUnit",
+      "latitude": -35.3551689,
+      "longitude": 150.46035,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU58",
+      "service": "RadioUnit",
+      "latitude": -35.3414109,
+      "longitude": 150.4569676,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU59",
+      "service": "RadioUnit",
+      "latitude": -35.3482708,
+      "longitude": 150.4629362,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU82",
+      "service": "RadioUnit",
+      "latitude": -35.3669636,
+      "longitude": 150.4709759,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU83",
+      "service": "RadioUnit",
+      "latitude": -35.3650451,
+      "longitude": 150.4778375,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU94",
+      "service": "RadioUnit",
+      "latitude": -35.3341991,
+      "longitude": 150.4556469,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    }
+  ]
+}

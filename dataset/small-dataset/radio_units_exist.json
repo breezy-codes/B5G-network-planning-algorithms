@@ -1,0 +1,44 @@
+{
+  "radio_units_existing": [
+    {
+      "ru_name": "RU2",
+      "service": "RadioUnit",
+      "latitude": -35.3435119,
+      "longitude": 150.4733487,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU5",
+      "service": "RadioUnit",
+      "latitude": -35.3642498,
+      "longitude": 150.4727704,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU12",
+      "service": "RadioUnit",
+      "latitude": -35.35342,
+      "longitude": 150.46994,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU18",
+      "service": "RadioUnit",
+      "latitude": -35.3507432,
+      "longitude": 150.4663473,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    },
+    {
+      "ru_name": "RU1",
+      "service": "RadioUnit",
+      "latitude": -35.3570363,
+      "longitude": 150.4744045,
+      "capacity_bandwidth": 10000,
+      "range_m": 500
+    }
+  ]
+}

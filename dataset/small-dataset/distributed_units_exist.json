@@ -1,0 +1,12 @@
+{
+  "distributed_units_existing": [
+    {
+      "du_name": "DU1",
+      "latitude": -35.3489,
+      "longitude": 150.472,
+      "service": "DistributedUnit",
+      "capacity_bandwidth": 400000,
+      "capacity_ports": 50
+    }
+  ]
+}

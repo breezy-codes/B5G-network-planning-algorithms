@@ -1,0 +1,12 @@
+{
+    "centralised_units": [
+        {
+            "cu_name": "CU1",
+            "latitude": -35.3489,
+            "longitude": 150.472,
+            "service": "CentralisedUnit",
+            "capacity_bandwidth": 3000000000000000000,
+            "capacity_ports": 3000
+        }
+    ]
+}
