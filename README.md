@@ -1,6 +1,6 @@
 # Code Repository
 
-This repository contains the complete codebase for the **Honours Network Model research project**, including implementations, datasets, and utilities for generating, analysing, and optimising network configurations.
+This repository contains the complete codebase for my **Honours year project**, based on research into cost-effective deployment and optimisation of next-generation (B5G/6G) reconfigurable RAN and optical X-haul networks. It includes implementations, datasets, and utilities for generating, analysing, and optimising network configurations.
 
 Algorithms provided:
 
@@ -17,8 +17,17 @@ The project explores deployment strategies for next-generation (B5G/6G) reconfig
 
 **Associated Research Papers:**
 
-- [Optical X-haul for Beyond 5G: Cost-effective Deployment Strategies](https://opg.optica.org/abstract.cfm?uri=OFC-2025-M1I.3) - presented at the Optical Fiber Communication Conference (OFC) 2025.
-- [Cost Optimal Network Planning for Converged Optical X-haul in Beyond 5G Networks](https://doi.org/10.1364/JOCN.567406) - published in the Journal of Optical Communications and Networking (JOCN).
+- [**Optical X-haul for Beyond 5G: Cost-effective Deployment Strategies**](https://opg.optica.org/abstract.cfm?uri=OFC-2025-M1I.3)  
+  *Presented at the Optical Fiber Communication Conference (OFC) 2025.*  
+  Focus: CPLEX shortest path model for efficient X-haul deployment.
+
+- [**Cost Optimal Network Planning for Converged Optical X-haul in Beyond 5G Networks**](https://doi.org/10.1364/JOCN.567406)  
+  *Published in the Journal of Optical Communications and Networking (JOCN).*  
+  Focus: CPLEX full graph model with Steiner tree post-processing for optimal network design.
+
+- **Genetic Algorithm for Multi-layered Location-Allocation-Routing Problems in Network Planning**  
+  *Submitted to Operations Research (under review).*  
+  Focus: Establishes the Steiner tree theorem and demonstrates the genetic algorithm as a scalable alternative to CPLEX for large datasets.
 <!-- [Paper 3 Title](link) -->  
 
 **Deakin Mathematics Yearbook Report:**  
