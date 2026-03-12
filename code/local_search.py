@@ -55,7 +55,8 @@ base_dir = os.path.dirname(current_dir)                   # project root
 scenario = os.path.join(base_dir, "dataset", dataset)
 
 # Results + log path
-results_dir = os.path.join(current_dir, "results")
+results_dir = os.path.join(current_dir, "results", "local-search", dataset)
+os.makedirs(results_dir, exist_ok=True) # Create results directory if it doesn't exist
 output_dir = results_dir 
 
 greedy_solution_path = os.path.join(results_dir, f"greedy_short_{dataset}_{config.RUN_ID}_all.json")

@@ -35,7 +35,7 @@ Customisation:
 import folium, os
 
 from map_modules.config import get_radio_unit_color, get_distributed_unit_color, get_centralised_unit_color
-from map_modules.helper_functions import add_feature_group, add_radio_unit_radii, add_cleaned_roads_to_map, add_grid_squares, map_legend_for_results, load_json_data
+from map_modules.helper_functions import add_feature_group, add_radio_unit_radii, add_roads_to_map, add_grid_squares, map_legend_for_results, load_json_data, add_existing_paths
 
 # ===================================
 # Place the selected devices and connections from the results file here
@@ -61,6 +61,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))    # scripts/
 base_dir = os.path.dirname(current_dir)                     # project root
 scenario = os.path.join(base_dir, "..", "dataset", dataset) # dataset directory
 map_dir = os.path.join(base_dir, "..", "maps", "generated") # map directory
+os.makedirs(map_dir, exist_ok=True)
 
 def load_all_data():
     """Loads all necessary JSON data from the dataset directory."""
@@ -69,11 +70,12 @@ def load_all_data():
         "distributed_units": os.path.join(scenario, "distributed_units.json"),
         "radio_units": os.path.join(scenario, "radio_units.json"),
         "road_nodes": os.path.join(scenario, "road_nodes.json"),
-        "cleaned_road_edges": os.path.join(scenario, "road_edges.json"),
+        "road_edges": os.path.join(scenario, "road_edges.json"),
         "polygon_coords": os.path.join(scenario, "region.json"),
         "ru_du_paths": os.path.join(scenario, "ru_du_path.json"),
         "du_cu_paths": os.path.join(scenario, "du_cu_path.json"),
         "ru_du_existing_paths": os.path.join(scenario, "ru_du_path_exist_graph.json"),
+        "du_cu_existing_paths": os.path.join(scenario, "du_cu_path_exist.json"),
         "radio_units_existing": os.path.join(scenario, "radio_units_exist.json"),
         "grid_data": os.path.join(scenario, "demand_points.json")}
 
@@ -88,15 +90,16 @@ distributed_units_data = data["distributed_units"]
 radio_units_data = data["radio_units"]
 radio_units_existing_data = data["radio_units_existing"]
 road_nodes_data = data["road_nodes"]
-cleaned_road_edges_data = data["cleaned_road_edges"]
+road_edges_data = data["road_edges"]
 polygon_coords = data["polygon_coords"]
 ru_du_paths = data["ru_du_paths"]
 du_cu_paths = data["du_cu_paths"]
 ru_du_existing_paths = data["ru_du_existing_paths"] 
+du_cu_existing_paths = data["du_cu_existing_paths"]
 grid_data = data["grid_data"]
 polygon_coords_lat_lon = [(lat, lon) for lon, lat in polygon_coords["polygon_coords"]]
 
-def plot_path_on_map_with_curvature(map_obj, path_data, road_edges, color, ru_du_connections):
+def plot_shortest_path_on_map_with_curvature(map_obj, path_data, road_edges, color, ru_du_connections):
     """Plots paths on the map with curvature based on road edges."""
     pos = {}
     
@@ -119,26 +122,6 @@ def plot_path_on_map_with_curvature(map_obj, path_data, road_edges, color, ru_du
                         else:
                             start_pos, end_pos = pos[current_start_node], pos[current_end_node]
                             folium.PolyLine(locations=[start_pos[::-1], end_pos[::-1]], color=color, weight=3).add_to(map_obj)
- 
-def plot_existing_ru_du_paths(map_obj, path_data, road_edges, color='black'):
-    """Plots existing RU-DU paths on the map."""
-    pos = {}
-    
-    for path_entry in path_data:
-        path = path_entry['path']
-        if len(path) >= 2:
-            for i in range(len(path) - 1):
-                current_start_node = path[i]
-                current_end_node = path[i + 1]
-                
-                edge = next((e for e in road_edges if (e['from'] == current_start_node and e['to'] == current_end_node) or (e['from'] == current_end_node and e['to'] == current_start_node)), None)
-                if edge:
-                    if edge['geometry']:
-                        line_points = [(point['latitude'], point['longitude']) for point in edge['geometry']]
-                        folium.PolyLine(locations=line_points, color=color, weight=8).add_to(map_obj)
-                    else:
-                        start_pos, end_pos = pos[current_start_node], pos[current_end_node]
-                        folium.PolyLine(locations=[start_pos[::-1], end_pos[::-1]], color=color, weight=3).add_to(map_obj)
 
 def create_map_with_layers(selected_rus=None, not_selected_rus=None, selected_dus=None, not_selected_dus=None):
     """Creates a Folium map with all layers and features."""
@@ -149,14 +132,20 @@ def create_map_with_layers(selected_rus=None, not_selected_rus=None, selected_du
     
     boundary_group = folium.FeatureGroup(name="Boundary", show=False)
     folium.Polygon(locations=polygon_coords_lat_lon, color='red', weight=1.5).add_to(boundary_group)
-    add_cleaned_roads_to_map(cleaned_road_edges_data, m)
+    add_roads_to_map(road_edges_data, m)
     boundary_group.add_to(m)
     
+    # Add existing RU-DU paths, and existing DU-CU paths as separate layers
+    add_existing_paths(m, ru_du_existing_paths, road_edges_data, "RU to DU Paths (Existing)", color="#BD33A3")
+    add_existing_paths(m, du_cu_existing_paths, road_edges_data, "DU to CU Paths (Existing)", color="#BD33A3")
+
     add_feature_group(centralised_units_data["centralised_units"], m, "Centralised Units", get_centralised_unit_color, marker_type='hexagon', selected_ids=["CU_1"], not_selected_ids=[])    
+    
     add_radio_unit_radii(radio_units_data["radio_units"], m, selected_ids=selected_rus, not_selected_ids=not_selected_rus) 
+
     add_feature_group(distributed_units_data["distributed_units"], m, "Selected Distributed Units", get_distributed_unit_color, marker_type='pentagon', selected_ids=selected_dus, not_selected_ids=[])
     add_feature_group(distributed_units_data["distributed_units"], m, "Unselected Distributed Units", get_distributed_unit_color, marker_type='pentagon', selected_ids=[], not_selected_ids=not_selected_dus)  
-      
+    
     add_feature_group(radio_units_data["radio_units"], m, "Selected Radio Units", get_radio_unit_color, marker_type='circle', selected_ids=selected_rus, not_selected_ids=[])
     add_feature_group(radio_units_data["radio_units"], m, "Unselected Radio Units", get_radio_unit_color, marker_type='circle', selected_ids=[], not_selected_ids=not_selected_rus)
     
@@ -166,19 +155,14 @@ def create_map_with_layers(selected_rus=None, not_selected_rus=None, selected_du
         folium.CircleMarker(location=[location['latitude'], location['longitude']], radius=4, color='purple', fill=True, fill_color='purple', fill_opacity=1, popup=f"ID: {location.get('ru_name')}, Status: existing").add_to(existing_radio_units_group)
     existing_radio_units_group.add_to(m)
     
-    # Add the new RU-DU existing paths in black
-    existing_ru_du_paths_group = folium.FeatureGroup(name="Existing RU-DU Paths", show=True)
-    plot_existing_ru_du_paths(existing_ru_du_paths_group, ru_du_existing_paths, cleaned_road_edges_data['road_edges'], color='#BD33A3')
-    existing_ru_du_paths_group.add_to(m)
-    
     # Chosen RU-DU paths
     ru_du_paths_group = folium.FeatureGroup(name="RU to DU Paths", show=True)
-    plot_path_on_map_with_curvature(ru_du_paths_group, ru_du_paths, cleaned_road_edges_data['road_edges'], color='black', ru_du_connections=ru_to_du_connections)
+    plot_shortest_path_on_map_with_curvature(ru_du_paths_group, ru_du_paths, road_edges_data['road_edges'], color='black', ru_du_connections=ru_to_du_connections)
     ru_du_paths_group.add_to(m)
 
     # Chosen DU-CU paths
     du_cu_paths_group = folium.FeatureGroup(name="DU to CU Paths", show=True)
-    plot_path_on_map_with_curvature(du_cu_paths_group, du_cu_paths, cleaned_road_edges_data['road_edges'], color='black', ru_du_connections=du_to_cu_connections)
+    plot_shortest_path_on_map_with_curvature(du_cu_paths_group, du_cu_paths, road_edges_data['road_edges'], color='black', ru_du_connections=du_to_cu_connections)
     du_cu_paths_group.add_to(m)
     
     add_grid_squares(grid_data, m, dataset)

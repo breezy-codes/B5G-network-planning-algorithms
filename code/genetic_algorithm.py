@@ -37,7 +37,7 @@ dataset = "small-dataset"
 # Default run configuration
 run = 1
 max_iterations = 250
-num_neighbours = 10
+num_neighbours = 1
 num_mutations = 3
 num_solutions = 20
 crossover_interval = 50
@@ -84,10 +84,12 @@ base_dir = os.path.dirname(current_dir)                   # project root
 scenario = os.path.join(base_dir, "dataset", dataset)
 
 # Results + log path
-results_dir = os.path.join(current_dir, "results")
+results_base_dir = os.path.join(current_dir, "results")
+results_dir = os.path.join(current_dir, "results", "genetic", dataset)
+os.makedirs(results_dir, exist_ok=True) # Create results directory if it doesn't exist
 output_dir = results_dir 
 
-greedy_solution_path = os.path.join(results_dir, f"greedy_short_{dataset}_{config.RUN_ID}_all.json")
+greedy_solution_path = os.path.join(results_base_dir, "greedy", dataset, f"greedy_short_{dataset}_{config.RUN_ID}_all.json")
 
 with open(os.path.join(scenario, 'radio_units_new.json')) as ru_new_file: ru_data_new = json.load(ru_new_file)
 with open(os.path.join(scenario, 'radio_units_exist.json')) as ru_existing_file: ru_data_existing = json.load(ru_existing_file)

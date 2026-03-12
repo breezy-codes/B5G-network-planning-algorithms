@@ -7,6 +7,7 @@ code/logs/**
 .idea
 __pycache__/
 cache/
+.python-version
 
 # Ignore all vscode settings
 .vscode/
