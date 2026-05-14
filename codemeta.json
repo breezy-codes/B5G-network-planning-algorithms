@@ -1,0 +1,62 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "type": "SoftwareSourceCode",
+    "author": [
+        {
+            "id": "https://orcid.org/0009-0005-9841-3691",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Deakin University"
+            },
+            "email": "brianna.laird@deakin.edu.au",
+            "familyName": "Laird",
+            "givenName": "Brianna"
+        },
+        {
+            "id": "https://orcid.org/0000-0002-0996-1081",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Deakin University"
+            },
+            "email": "chathu.ranaweera@deakin.edu.au",
+            "familyName": "Ranaweera",
+            "givenName": "Chathurika"
+        },
+        {
+            "id": "https://orcid.org/0000-0001-5290-8051",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Deakin University"
+            },
+            "email": "julien.ugon@deakin.edu.au",
+            "familyName": "Ugon",
+            "givenName": "Julien"
+        }
+    ],
+    "codeRepository": "https://github.com/breezy-codes/B5G-network-planning-algorithms",
+    "dateCreated": "2025-02-05",
+    "dateModified": "2025-09-18",
+    "datePublished": "2025-09-18",
+    "description": "Implementations of GEGASM, GEGA, greedy heuristics, and CPLEX-based optimisation approaches for B5G optical x-haul and O-RAN network planning.",
+    "downloadUrl": "https://github.com/breezy-codes/B5G-network-planning-algorithms/releases",
+    "keywords": [
+        "genetic algorithm",
+        "network planning",
+        "graph theory",
+        "MILP",
+        "operations research",
+        "heuristics"
+    ],
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "name": "B5G Network Planning Algorithms",
+    "programmingLanguage": "Python",
+    "relatedLink": [
+        "https://doi.org/10.1364/JOCN.567406",
+        "https://doi.org/10.1364/OFC.2025.M1I.3"
+    ],
+    "softwareRequirements": "https://www.ibm.com/products/ilog-cplex-optimization-studio",
+    "version": "1.0.0"
+}

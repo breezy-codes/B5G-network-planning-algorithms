@@ -2,6 +2,9 @@
 
 > Research software developed by Brianna Laird as part of the Bachelor of Cyber Security (Honours) program at Deakin University.
 
+![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
+![Research](https://img.shields.io/badge/research-Deakin%20University-purple)
+
 ## Code Repository
 
 This repository contains the complete codebase for my **Honours year project**, based on research into cost-effective deployment and optimisation of next-generation (B5G/6G) reconfigurable RAN and optical X-haul networks. It includes implementations, datasets, and utilities for generating, analysing, and optimising network configurations.
