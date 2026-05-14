@@ -10,7 +10,8 @@ This directory contains the core code for running heuristic-based experiments, i
 >
 > - 🐍 [CPLEX_graph_model.py](CPLEX_graph_model.py) — *CPLEX full graph model*
 > - 🐍 [CPLEX_shortest_path.py](CPLEX_shortest_path.py) — *CPLEX shortest-path model*
-> - 🐍 [genetic_algorithm.py](genetic_algorithm.py) — *Genetic algorithm implementation*
+> - 🐍 [genetic_algorithm.py](genetic_algorithm.py) — *Genetic algorithm (GEGASM) implementation*
+> - 🐍 [BEGA.py](BEGA.py) — *Binary-encoded Genetic Algorithm implementation*
 > - 📓 [greedy_solution_generator.ipynb](greedy_solution_generator.ipynb) — *Greedy algorithm notebook*
 > - 🐍 [local_search.py](local_search.py) — *Local search implementation*
 >
@@ -31,6 +32,14 @@ This directory contains the core code for running heuristic-based experiments, i
 - [**`genetic_algorithm.py`**](genetic_algorithm.py)
   Evolves greedy-generated solutions toward higher-quality results using crossover, mutation, and selection.
 
+  - Reads input data from the chosen dataset (see [Dataset README](../dataset/README.md)).
+  - Outputs solutions, logs, and metrics to the [`results/`](results/) directory.
+  - Uses shared components from the [`modules/`](modules/) folder.
+
+- [**`BEGA.py`**](BEGA.py)
+  Implements a simple binary-encoded genetic algorithm (BEGA) for solution evolution using PYGAD.
+
+  - Similar functionality to `genetic_algorithm.py` but with a different encoding and approach.
   - Reads input data from the chosen dataset (see [Dataset README](../dataset/README.md)).
   - Outputs solutions, logs, and metrics to the [`results/`](results/) directory.
   - Uses shared components from the [`modules/`](modules/) folder.
@@ -121,6 +130,7 @@ Outputs are saved in the [**`results/`**](results/) directory:
 2. Choose a refinement method:
 
    - [**`genetic_algorithm.py`**](genetic_algorithm.py) → Evolves solutions over generations.
+   - [**`BEGA.py`**](BEGA.py) → Evolves solutions using a binary-encoded genetic algorithm.
    - [**`local_search.py`**](local_search.py) → Iteratively improves solutions.
 
 3. (Optional) For exact optimisation, run:

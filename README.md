@@ -1,11 +1,16 @@
-# Code Repository
+# B5G Network Planning Algorithms
+
+> Research software developed by Brianna Laird as part of the Bachelor of Cyber Security (Honours) program at Deakin University.
+
+## Code Repository
 
 This repository contains the complete codebase for my **Honours year project**, based on research into cost-effective deployment and optimisation of next-generation (B5G/6G) reconfigurable RAN and optical X-haul networks. It includes implementations, datasets, and utilities for generating, analysing, and optimising network configurations.
 
 Algorithms provided:
 
 - **Greedy Algorithm:** Fast, heuristic-based solutions for initial network configurations.
-- **Genetic Algorithm:** Evolutionary optimisation for exploring larger solution spaces.
+- **Genetic Algorithm (GEGASM):** Evolutionary optimisation for exploring larger solution spaces.
+- **Binary-encoded Genetic Algorithm (BEGA):** An alternative genetic algorithm approach using binary encoding based on the MILP.
 - **Local Search:** Iterative improvement for refining solutions.
 - **CPLEX Models:** Exact mathematical programming approaches, including shortest-path and full graph optimisation.
 
@@ -26,7 +31,7 @@ The project explores deployment strategies for next-generation (B5G/6G) reconfig
   Focus: CPLEX full graph model with Steiner tree post-processing for optimal network design.
 
 - **Genetic Algorithm for Multi-layered Location-Allocation-Routing Problems in Network Planning**  
-  *Submitted to Operations Research (under review).*  
+  *Submitted to European Journal of Operations Research (under review).*  
   Focus: Establishes the Steiner tree theorem and demonstrates the genetic algorithm as a scalable alternative to CPLEX for large datasets.
 <!-- [Paper 3 Title](link) -->  
 
@@ -45,11 +50,14 @@ GitHub provides a built-in **"Cite this repository"** option via the repository 
 ### BibTeX
 
 ```bibtex
-@software{laird2025networkplanning,
-  author = {Laird, Brianna and Ranaweera, Chathurika and Ugon, Julien},
-  title        = {B5G Network Planning Algorithms},
-  year         = {2025-09-15},
-  url          = {https://github.com/breezy-codes/B5G-network-planning-algorithms}
+@software{Laird_B5G_Network_Planning_2025,
+author = {Laird, Brianna and Ranaweera, Chathurika and Ugon, Julien},
+license = {GPL-3.0},
+month = sep,
+title = {{B5G Network Planning Algorithms}},
+url = {https://github.com/breezy-codes/B5G-network-planning-algorithms},
+version = {1.0.0},
+year = {2025}
 }
 ```
 
@@ -71,6 +79,7 @@ The project is organised into modular components. Below is the folder layout, al
 >   - 🐍 [CPLEX_graph_model.py](code/CPLEX_graph_model.py) — *CPLEX full graph model implementation*
 >   - 🐍 [CPLEX_shortest_path.py](code/CPLEX_shortest_path.py) — *CPLEX shortest-path model implementation*
 >   - 🐍 [genetic_algorithm.py](code/genetic_algorithm.py) — *Genetic algorithm implementation*
+>   - 🐍 [BEGA.py](code/BEGA.py) — *Binary-encoded Genetic Algorithm implementation*
 >   - 📓 [greedy_solution_generator.ipynb](code/greedy_solution_generator.ipynb) — *Greedy algorithm implementation notebook*
 >   - 🐍 [local_search.py](code/local_search.py) — *Local search algorithm implementation*
 >   - 📄 [README.md](code/README.md) — *Guide to running algorithms*
@@ -106,6 +115,14 @@ The project is organised into modular components. Below is the folder layout, al
   - Customisable crossover and mutation operators
   - Configurable selection strategies
   - Logging of population performance over time
+- **Note:** For a simpler alternative, see the Binary-encoded Genetic Algorithm (BEGA) below.
+
+### Binary-encoded Genetic Algorithm (BEGA)
+
+- **Purpose:** An alternative genetic algorithm approach using binary encoding based on the MILP formulation.
+- **Advantages:** Simpler encoding can lead to faster convergence in some cases, and may be easier to implement for certain problem structures.
+- **Disadvantages:** May not capture complex solution structures as effectively as a more traditional genetic algorithm leading to suboptimal solutions in some cases.
+- **Implementation:** See [`code/BEGA.py`](code/BEGA.py).
 
 ### Local Search
 
@@ -208,6 +225,12 @@ Algorithm outputs are stored under `heuristic-algorithm/results/`, with logs in 
 
      ```bash
      python code/genetic_algorithm.py
+     ```
+
+   - For the **Binary-encoded Genetic Algorithm (BEGA)**, execute:
+
+     ```bash
+     python code/BEGA.py
      ```
 
    - For the **Local Search**, run:
