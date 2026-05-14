@@ -10,7 +10,8 @@ This directory contains the core code for running heuristic-based experiments, i
 >
 > - 🐍 [CPLEX_graph_model.py](CPLEX_graph_model.py) — *CPLEX full graph model*
 > - 🐍 [CPLEX_shortest_path.py](CPLEX_shortest_path.py) — *CPLEX shortest-path model*
-> - 🐍 [genetic_algorithm.py](genetic_algorithm.py) — *Genetic algorithm (GEGASM) implementation*
+> - 🐍 [GEGASM.py](GEGASM.py) — *Graph-encoded Genetic Algorithm with Steiner mutations*
+> - 🐍 [GEGA.py](GEGA.py) — *Graph-encoded Genetic Algorithm*
 > - 🐍 [BEGA.py](BEGA.py) — *Binary-encoded Genetic Algorithm implementation*
 > - 📓 [greedy_solution_generator.ipynb](greedy_solution_generator.ipynb) — *Greedy algorithm notebook*
 > - 🐍 [local_search.py](local_search.py) — *Local search implementation*
@@ -29,8 +30,15 @@ This directory contains the core code for running heuristic-based experiments, i
 
     - Example: For 50 starting solutions, run 60–70 greedy iterations.
 
-- [**`genetic_algorithm.py`**](genetic_algorithm.py)
+- [**`GEGASM.py`**](GEGASM.py)
   Evolves greedy-generated solutions toward higher-quality results using crossover, mutation, and selection.
+
+  - Reads input data from the chosen dataset (see [Dataset README](../dataset/README.md)).
+  - Outputs solutions, logs, and metrics to the [`results/`](results/) directory.
+  - Uses shared components from the [`modules/`](modules/) folder.
+
+- [**`GEGA.py`**](GEGA.py)
+  Similar to `GEGASM.py` but without Steiner mutations, while still using all the core functionality of GEGASM.
 
   - Reads input data from the chosen dataset (see [Dataset README](../dataset/README.md)).
   - Outputs solutions, logs, and metrics to the [`results/`](results/) directory.
@@ -39,7 +47,7 @@ This directory contains the core code for running heuristic-based experiments, i
 - [**`BEGA.py`**](BEGA.py)
   Implements a simple binary-encoded genetic algorithm (BEGA) for solution evolution using PYGAD.
 
-  - Similar functionality to `genetic_algorithm.py` but with a different encoding and approach.
+  - Similar functionality to `GEGASM.py` but with a different encoding and approach.
   - Reads input data from the chosen dataset (see [Dataset README](../dataset/README.md)).
   - Outputs solutions, logs, and metrics to the [`results/`](results/) directory.
   - Uses shared components from the [`modules/`](modules/) folder.
@@ -111,8 +119,8 @@ Modify this file to configure experiments globally across all algorithms and mod
 
 Outputs are saved in the [**`results/`**](results/) directory:
 
-- **Greedy Algorithm:** Final solutions only.
-- **Genetic Algorithm:** Solutions, logs per iteration, and used-segment JSONs.
+- **Greedy Algorithm and BEGA:** Final solutions only.
+- **GEGASM & GEGA:** Final solutions, best solution per iteration, and detailed logs..
 - **Local Search:** Solutions, logs per iteration, and used-segment JSONs.
 - **CPLEX Models:**
 
@@ -129,7 +137,9 @@ Outputs are saved in the [**`results/`**](results/) directory:
 
 2. Choose a refinement method:
 
-   - [**`genetic_algorithm.py`**](genetic_algorithm.py) → Evolves solutions over generations.
+   - [**`GEGASM.py`**](GEGASM.py) → Evolves solutions using a graph-encoded genetic algorithm with Steiner mutations.
+   - [**`GEGA.py`**](GEGA.py) → Evolves solutions using a graph-encoded genetic algorithm without Steiner mutations.
+     - Both GEGASM and GEGA share core functionality but differ in Steiner mutation usage.
    - [**`BEGA.py`**](BEGA.py) → Evolves solutions using a binary-encoded genetic algorithm.
    - [**`local_search.py`**](local_search.py) → Iteratively improves solutions.
 

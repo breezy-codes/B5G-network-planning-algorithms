@@ -9,7 +9,8 @@ This repository contains the complete codebase for my **Honours year project**, 
 Algorithms provided:
 
 - **Greedy Algorithm:** Fast, heuristic-based solutions for initial network configurations.
-- **Genetic Algorithm (GEGASM):** Evolutionary optimisation for exploring larger solution spaces.
+- **Graph Encoded Genetic Algorithm with Steiner Mutations (GEGASM):** Evolutionary optimisation for exploring larger solution spaces, exploiting Steiner tree properties for efficient solution generation.
+- **Graph Encoded Genetic Algorithm (GEGA):** Similar to GEGASM but without Steiner mutations, providing a more traditional genetic algorithm approach for comparison.
 - **Binary-encoded Genetic Algorithm (BEGA):** An alternative genetic algorithm approach using binary encoding based on the MILP.
 - **Local Search:** Iterative improvement for refining solutions.
 - **CPLEX Models:** Exact mathematical programming approaches, including shortest-path and full graph optimisation.
@@ -78,7 +79,8 @@ The project is organised into modular components. Below is the folder layout, al
 >   - 📁 [results](code/results)/ — *Results from algorithm & CPLEX runs*
 >   - 🐍 [CPLEX_graph_model.py](code/CPLEX_graph_model.py) — *CPLEX full graph model implementation*
 >   - 🐍 [CPLEX_shortest_path.py](code/CPLEX_shortest_path.py) — *CPLEX shortest-path model implementation*
->   - 🐍 [genetic_algorithm.py](code/genetic_algorithm.py) — *Genetic algorithm implementation*
+>   - 🐍 [GEGASM.py](code/GEGASM.py) — *Graph-Encoded Genetic algorithm with Steiner Mutations implementation*
+>   - 🐍 [GEGA.py](code/GEGA.py) — *Graph-Encoded Genetic algorithm implementation*
 >   - 🐍 [BEGA.py](code/BEGA.py) — *Binary-encoded Genetic Algorithm implementation*
 >   - 📓 [greedy_solution_generator.ipynb](code/greedy_solution_generator.ipynb) — *Greedy algorithm implementation notebook*
 >   - 🐍 [local_search.py](code/local_search.py) — *Local search algorithm implementation*
@@ -106,7 +108,7 @@ The project is organised into modular components. Below is the folder layout, al
 - **Advantages:** Lightweight, quick to implement, and useful as a baseline.
 - **Implementation:** See [`code/greedy_solution_generator.ipynb`](code/greedy_solution_generator.ipynb).
 
-### Genetic Algorithm
+### Graph Encoded Genetic Algorithm with Steiner Mutations (GEGASM)
 
 - **Purpose:** Explores larger solution spaces through evolutionary optimisation.
 - **Advantages:** Finds higher-quality solutions at the cost of runtime and computational resources.
@@ -116,6 +118,17 @@ The project is organised into modular components. Below is the folder layout, al
   - Configurable selection strategies
   - Logging of population performance over time
 - **Note:** For a simpler alternative, see the Binary-encoded Genetic Algorithm (BEGA) below.
+
+### Graph Encoded Genetic Algorithm (GEGA)
+
+- **Purpose:** Similar to GEGASM but without Steiner mutations, while still using all the core functionality of GEGASM.
+- **Advantages:** Provides a more traditional genetic algorithm approach, which may be preferable in certain scenarios or for comparison purposes.
+- **Implementation:** See [`code/GEGA.py`](code/GEGA.py).
+- **Features:**
+  - Customisable crossover and mutation operators (without Steiner mutations)
+  - Configurable selection strategies
+  - Logging of population performance over time
+- **Note:** Used to demonstrate the impact of Steiner mutations by providing a direct comparison to GEGASM, while still leveraging the same underlying genetic algorithm framework.
 
 ### Binary-encoded Genetic Algorithm (BEGA)
 
@@ -221,14 +234,20 @@ Algorithm outputs are stored under `heuristic-algorithm/results/`, with logs in 
      jupyter notebook code/greedy_solution_generator.ipynb
      ```
 
-   - For the **Genetic Algorithm**, execute:
+   - For the **Graph-Encoded Genetic Algorithm with Steiner Mutations (GEGASM)**, execute:
 
      ```bash
-     python code/genetic_algorithm.py
+     python code/GEGASM.py
+     ```
+
+   - For the **Graph-Encoded Genetic Algorithm (GEGA)**, execute:
+
+     ```bash
+     python code/GEGA.py
      ```
 
    - For the **Binary-encoded Genetic Algorithm (BEGA)**, execute:
-
+  
      ```bash
      python code/BEGA.py
      ```

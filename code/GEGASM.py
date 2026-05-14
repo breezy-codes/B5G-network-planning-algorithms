@@ -8,12 +8,12 @@
 %━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ?━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-This is the main script for running the genetic algorithm on the given dataset.
-It sets up the environment, loads the necessary data, initialises the units, and runs the genetic algorithm.
+This is the main script for running the Graph-Encoded Genetic Algorithm with Steiner Mutations (GEGASM) on the given dataset.
+It sets up the environment, loads the necessary data, initialises the units, and runs GEGASM.
 It can run the algorithm with or without a time limit, depending on the requirements.
 
 To use, set the `dataset` variable to either "small-dataset" or "full-dataset". Or load your own dataset.
-You can also adjust the parameters for the genetic algorithm to change its behaviour.
+You can also adjust the parameters for GEGASM to change its behaviour.
 
 If you want to use a time limit, set the `time_limit_minutes` variable to the desired number of minutes. Otherwise, set it to None.
 If set to None, the algorithm will run for the specified number of iterations.
@@ -29,7 +29,7 @@ from modules.data_classes.dataclass_DU import DistributedUnit
 from modules.data_classes.dataclass_roads import RoadGraph
 from modules.data_classes.dataclass_RU import RadioUnit
 from modules.data_classes.dataclass_user import User
-from modules.algorithms.genetic_algorithm import save_genetic_algorithm
+from modules.algorithms.genetic_algorithm import save_GEGASM
 
 # Set the dataset you want to use, being either "small-dataset" or "full-dataset"
 dataset = "small-dataset"
@@ -85,7 +85,7 @@ scenario = os.path.join(base_dir, "dataset", dataset)
 
 # Results + log path
 results_base_dir = os.path.join(current_dir, "results")
-results_dir = os.path.join(current_dir, "results", "genetic", dataset)
+results_dir = os.path.join(current_dir, "results", "GEGASM", dataset)
 os.makedirs(results_dir, exist_ok=True) # Create results directory if it doesn't exist
 output_dir = results_dir 
 
@@ -143,4 +143,4 @@ graph.mark_existing_path(du_cu_paths_existing)
 graph.precompute_shortest_paths()
 
 if __name__ == "__main__":
-    save_genetic_algorithm(greedy_solution_path, RUs, DUs, CUs, users, output_dir, graph, scenario, run_id, max_iterations=max_iterations, num_neighbours=num_neighbours, num_mutations=num_mutations,  num_solutions=num_solutions, crossover_interval=crossover_interval, save_interval=save_interval,elite_pop=elite_pop, num_clones=num_clones, time_limit_minutes=time_limit_minutes)
+    save_GEGASM(greedy_solution_path, RUs, DUs, CUs, users, output_dir, graph, scenario, run_id, max_iterations=max_iterations, num_neighbours=num_neighbours, num_mutations=num_mutations,  num_solutions=num_solutions, crossover_interval=crossover_interval, save_interval=save_interval,elite_pop=elite_pop, num_clones=num_clones, time_limit_minutes=time_limit_minutes)
