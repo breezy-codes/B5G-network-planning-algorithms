@@ -167,6 +167,8 @@ The repository includes two datasets designed on a region within rural Australia
 
 See the [README in `dataset/`](./dataset/README.md) for details on dataset structure and usage.
 
+I've also released a dataset generating tool as a separate repository, which can be found [here](https://github.com/breezy-codes/B5G-network-dataset-generator). This tool allows users to create custom datasets based on specific parameters and requirements, making it easier to test algorithms under various conditions.
+
 ---
 
 ## Scripts and Utilities
