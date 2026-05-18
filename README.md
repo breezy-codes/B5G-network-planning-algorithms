@@ -198,11 +198,13 @@ Algorithm outputs are stored under `heuristic-algorithm/results/`, with logs in 
   <tr>
     <td align="center">
       <img src="https://briannalaird.com/_images/phoebe1.JPG" alt="Phoebe the cat with the code" width="500px"><br>
-      <strong>Phoebe: Lead Developer</strong>
+      <strong>Phoebe: Lead Developer 🪽</strong><br>
+      <em>Forever reviewing pull requests from above</em>
     </td>
     <td align="center">
-      <img src="https://briannalaird.com/_images/phoebe2.JPG" alt="Phoebe the cat with the code" width="500px"><br>
-      <strong>Phoebe: Chief Bug Finder</strong>
+      <img src="https://briannalaird.com/_images/stanley1.JPG" alt="Stanley the cat learning to code" width="500px"><br>
+      <strong>Stanley: Budding New Developer</strong><br>
+      <em>Currently learning the sacred art of debugging</em>
     </td>
   </tr>
 </table>
