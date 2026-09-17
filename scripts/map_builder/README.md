@@ -1,5 +1,9 @@
 # Map Builder
 
+> NOTE
+> Recent changes to folium and map generation scripts may affect the output format and visualisation style. Please refer to the latest documentation in [docs/basemaps.md](../../docs/basemaps.md) for updated instructions on generating map outputs.
+
+
 This directory contains scripts and modules for **visualising the results** as interactive maps.
 
 The maps are generated using the [Folium](https://python-visualization.github.io/folium/) library and can display the chosen devices along with their paths and connections.

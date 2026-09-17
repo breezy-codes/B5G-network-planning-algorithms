@@ -114,12 +114,31 @@ def create_map_with_layers(selected_rus=None, not_selected_rus=None, selected_du
     map_centre = [-35.351422, 150.4589332]
     # Create the map with the specified center and zoom level
     zoom_level = 15 if dataset == "small-dataset" else 14
-    m = folium.Map(location=map_centre, zoom_start=zoom_level, tiles="OpenStreetMap")
+    
+    m = folium.Map(location=map_centre, zoom_start=zoom_level,tiles=None)
+
+    # Refer to docs/basemaps.md for information about available basemaps.
+
+    # OpenStreetMap (default)
+    folium.TileLayer(
+        tiles="https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        attr="&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+        name="OpenStreetMap",
+        referrer_policy="strict-origin",
+    ).add_to(m)
+
+    # CARTO Voyager
+    # Requires a personal CARTO API key. See docs/basemaps.md.
+    #
+    # folium.TileLayer(
+    #     tiles="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=YOUR_KEY",
+    #     attr='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    #     subdomains="abcd",
+    #     max_zoom=20,
+    #     name="CARTO Voyager",
+    # ).add_to(m)
 
     add_roads_to_map(road_edges_data, m)
-    boundary_group = folium.FeatureGroup(name="Boundary", show=False)
-    folium.Polygon(locations=polygon_coords_lat_lon, color='red', weight=1.5).add_to(boundary_group)
-    boundary_group.add_to(m)
     
     add_existing_paths(m, ru_du_paths, road_edges_data, "RU to DU Paths (Existing)", color="#BD33A3")
     add_existing_paths(m, du_cu_paths, road_edges_data, "DU to CU Paths (Existing)", color="#BD33A3")
