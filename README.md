@@ -4,6 +4,7 @@
 
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
 ![Research](https://img.shields.io/badge/research-Deakin%20University-purple)
+[![DOI](https://zenodo.org/badge/1062282058.svg)](https://doi.org/10.5281/zenodo.23991018)
 
 ## Code Repository
 
@@ -60,6 +61,7 @@ license = {GPL-3.0},
 month = sep,
 title = {{B5G Network Planning Algorithms}},
 url = {https://github.com/breezy-codes/B5G-network-planning-algorithms},
+doi = {10.5281/zenodo.23991019},
 version = {1.0.0},
 year = {2025}
 }
