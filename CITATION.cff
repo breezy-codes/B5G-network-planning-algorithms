@@ -42,6 +42,8 @@ repository-code: "https://github.com/breezy-codes/B5G-network-planning-algorithm
 
 url: "https://github.com/breezy-codes/B5G-network-planning-algorithms"
 
+doi: "10.5281/zenodo.23991019"
+
 version: "1.0.0"
 
 date-released: 2025-09-18
